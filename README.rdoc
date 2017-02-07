@@ -12,7 +12,7 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
-*sathes balasingamm
+
 * Database initialization
 
 * How to run the test suite
@@ -33,3 +33,5 @@ Amena K.
 JOEL
 
 Stephen H. - 1
+
+Sathes Balasingam
