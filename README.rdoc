@@ -12,7 +12,7 @@ Things you may want to cover:
 * Configuration
 
 * Database creation
-
+*sathes balasingamm
 * Database initialization
 
 * How to run the test suite
@@ -28,16 +28,10 @@ Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
 
-Amena K. is awesome 
+Amena K.
 
 JOEL
 
-<<<<<<< HEAD
-Stephen H. - 1
-
-Sathes Balasingam
-=======
 Stephen H. - 1 IS MY FRIEND. BUT HE STINKS
 
-AMR SUCKS
->>>>>>> feedda08d7c1b81f4db7e9139cd2761a6d4630e4
+g
