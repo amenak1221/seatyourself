@@ -28,11 +28,10 @@ Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
 
-Amena K. is awesome 
+Amena K. is awesome
 
 JOEL
 
-<<<<<<< HEAD
 Stephen H. - 1
 
 Sathes Balasingam
@@ -40,4 +39,3 @@ Sathes Balasingam
 Stephen H. - 1 IS MY FRIEND. BUT HE STINKS
 
 AMR SUCKS
->>>>>>> feedda08d7c1b81f4db7e9139cd2761a6d4630e4
