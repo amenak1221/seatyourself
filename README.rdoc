@@ -26,24 +26,3 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
-
-
-<<<<<<< HEAD
-Amena K.
-
-JOEL
-
-Stephen H. - 1 IS MY FRIEND. BUT HE STINKS
-=======
-Amena K. is awesome
-
-JOEL
-
-Stephen H. - 1
-
-Sathes Balasingam
-=======
-Stephen H. - 1 IS MY FRIEND. BUT HE STINKS
-
-AMR SUCKS
->>>>>>> cb91cd4cfcd482f155016a508c4a0dc1739837ce
