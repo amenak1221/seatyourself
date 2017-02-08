@@ -2,15 +2,13 @@
 
 <%= render 'show' %>
 
-<% form_for @restaurant do | r | %>
-
-<%= form_for :restaurant do |r| %>
-  name: <%= f.text_field :first_name %><br />
+<%= form_for @restaurant do | r | %>
+  name: <%= f.text_field :name %><br />
   cuisine : <%= f.text_field :cuisine %><br />
    address: <%= f.text_area :address %><br />
   <!-- Admin?    : <%= f.check_box :admin %><br /> -->
 
+<%= f.submit %>
 
-  <%= f.submit %>
   <%= link_to '/index', restaurants_path %>
 <% end %>
