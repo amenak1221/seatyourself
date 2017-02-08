@@ -26,25 +26,3 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
-
-
-Amena K. is awesome
-
-JOEL
-
-Stephen H. - 1
-
-Sathes Balasingam
-=======
-Stephen H. - 1 IS MY FRIEND. BUT HE STINKS
-
-AMR SUCKS
-
-
-
-
-STEPHENS CODEEEEE HERE
-
-stephen code 2
-
-stephen code 3
