@@ -1,0 +1,29 @@
+
+<%= form_for (@reserve) do |f|%>
+
+  <!-- Number of people -->
+  <div class="field">
+    <%= f.label :people %>
+    <%= f.text_field :people %>
+  </div>
+
+  <!-- Selecting date -->
+  <div class="field">
+    <%= f.label :date %>
+    <%= f.date_select :date %>
+  </div>
+
+  <!-- List of restaurants -->
+  <!-- <div class="field"> -->
+    <%# f.label  %>
+    Restaurant location
+    <%# @restaurants.address %>
+  <!-- </div> -->
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+
+
+
+<% end %>

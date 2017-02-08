@@ -1,0 +1,27 @@
+// Place all the styles related to the reservations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  background-color: #D32323;
+  margin: 0 auto 10px;
+  text-align: center;
+  font-family: sans-serif;
+  height: 100px;
+  line-height: 100px;
+}
+
+.reserve {
+  text-align: center;
+}
+
+.field {
+  display: inline-block;
+}
