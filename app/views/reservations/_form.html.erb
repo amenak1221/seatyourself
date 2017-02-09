@@ -1,9 +1,9 @@
-
-<%= form_for (@reserve) do |f|%>
+<div class="">
+  <%= form_for (@reserve) do |f|%>
 
   <!-- Number of people -->
   <div class="field">
-    <%= f.label :people %>
+    <%= f.label :number_of_people %>
     <%= f.text_field :people %>
   </div>
 
@@ -15,9 +15,9 @@
 
   <!-- List of restaurants -->
   <!-- <div class="field"> -->
-    <%# f.label  %>
-    Restaurant location
-    <%# @restaurants.address %>
+  <%# f.label  %>
+  <!-- Restaurant location -->
+  <%# @restaurants.address %>
   <!-- </div> -->
 
   <div class="actions">
@@ -26,4 +26,6 @@
 
 
 
-<% end %>
+  <% end %>
+  
+</div>

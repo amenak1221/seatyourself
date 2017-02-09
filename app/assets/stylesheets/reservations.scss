@@ -10,12 +10,13 @@ body {
 }
 
 h1 {
-  background-color: #D32323;
-  margin: 0 auto 10px;
+  background-color: #01BCFF;
+  margin: 0;
   text-align: center;
   font-family: sans-serif;
   height: 100px;
   line-height: 100px;
+  letter-spacing: 3px;
 }
 
 .reserve {
@@ -24,4 +25,13 @@ h1 {
 
 .field {
   display: inline-block;
+  z-index: 10;
+  left: 50%;
+}
+
+form#new_reservation {
+    position: absolute;;
+    top: 50%;
+    left: 33%;
+    font-family: sans-serif;
 }
