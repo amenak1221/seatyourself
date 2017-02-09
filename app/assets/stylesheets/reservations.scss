@@ -10,8 +10,9 @@ body {
 }
 
 h1 {
-  background-color: #01BCFF;
+  background-color: black;
   margin: 0;
+  color: white;
   text-align: center;
   font-family: sans-serif;
   height: 100px;
@@ -30,8 +31,10 @@ h1 {
 }
 
 form#new_reservation {
-    position: absolute;;
-    top: 50%;
-    left: 33%;
+    position: absolute;
+    color: white;
+    top: 40%;
+    width: 100%;
+    height: 10%;
     font-family: sans-serif;
 }
