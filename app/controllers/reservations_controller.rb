@@ -15,11 +15,9 @@ class ReservationsController < ApplicationController
 
   def create
     # this is for creating a new Reservation
-
     reserve = Reservation.new(reserve_params)
     # do we have @reserve.id here? NO
     # in other words: @reserve.id != nil MEANS that it has been saved to the database
-
     save_result = reserve.save
 
     if save_result
