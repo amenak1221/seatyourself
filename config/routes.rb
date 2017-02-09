@@ -1,14 +1,12 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-get 'restaurants/index'
-get 'restaurants/show'
-get 'restaurants/new'
+# get '/restaurant/index'
+# get '/restaurant/show'
+# get '/restaurant/new'
 
-
-
+resources :restaurants
 # resources :restaurants do
-  # resources :restaurants only: [:show, :new, :create, :destroy]
+  # resources :restaurants only: [:show, :new, :index]
 
 # end
 
