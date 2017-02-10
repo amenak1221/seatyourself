@@ -1,25 +1,25 @@
-<div class="form">
+<div class="res-form">
   <%= form_for (@reserve) do |f|%>
 
   <!-- Number of people -->
-  <div class="field">
+  <div class="res-field">
     <%= f.label :number_of_people %>
     <%= f.text_field :people %>
   </div>
 
   <!-- Selecting date -->
-  <div class="field">
+  <div class="res-field">
     <%= f.label :date %>
     <%= f.date_select :date %>
   </div>
 
   <!-- drop down menu for restaurant -->
-  <div class="field">
+  <div class="res-field">
     <%= f.label :restaurants %>
     <%= f.collection_select(:restaurant_id, Restaurant.all, :id, :name) %>
   </div>
 
-  <div class="actions">
+  <div class="res-actions">
     <%= f.submit %>
   </div>
 
