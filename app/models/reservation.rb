@@ -6,3 +6,5 @@ class Reservation < ApplicationRecord
     
   end
 end
+
+#stephen and sathes
