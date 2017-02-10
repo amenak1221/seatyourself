@@ -39,6 +39,10 @@ form#new_reservation {
     font-family: sans-serif;
 }
 
+input#reservation_people {
+    text-align: center;
+}
+
 .res_info {
   position: absolute;
   top: 37%;
@@ -50,4 +54,8 @@ form#new_reservation {
   width: 50%;
   margin: 0 25%;
   border-radius: 19px;
+}
+
+a {
+  color: white;
 }
