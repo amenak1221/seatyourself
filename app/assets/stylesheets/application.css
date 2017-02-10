@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+body {
+  /*background-color: #becde5;*/
+  background-image: url("http://www.lachamade.com/wp-content/uploads/2013/11/table-restaurant.jpg");
+  background-size: 1500px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  color: white;
+}
