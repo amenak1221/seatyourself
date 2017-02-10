@@ -25,14 +25,4 @@ private
     params.require(:restaurant).permit(:name)
   end
 
-# def create
-#   @restaurants = Restaurant.new(restaurant_params)
-#   if restaurant.save
-#     redirect_to restaurants_url
-
-  # else
-  #   render :new
-  # end
-
-
 end

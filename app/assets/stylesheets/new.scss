@@ -9,10 +9,24 @@ p{
 body {
   /*background-color: #becde5;*/
   background-size: 1500px;
-  color: white;
+  color: black;
   text-align: center;
 }
 
 h2 {
   color: white;
+}
+
+
+.restaurant-form {
+    position: absolute;
+    top: 37%;
+    font-family: sans-serif;
+    color: white;
+    border: 9px solid white;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    margin: 0 25%;
+    border-radius: 19px;
 }
