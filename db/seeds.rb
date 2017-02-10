@@ -13,55 +13,55 @@ cuisine: 'Pub Grub'
 )
 
 Restaurant.create(
-name: 'Big Wong'
-address: '123 Spadina ave'
+name: 'Big Wong',
+address: '123 Spadina ave',
 cuisine: 'Chinese'
 )
 
 Restaurant.create(
-name: 'Marios Pizza'
-address: '456 Collage Street'
+name: 'Marios Pizza',
+address: '456 Collage Street',
 cuisine: 'Italian'
 )
 
 Restaurant.create(
-name: 'Fresho'
-address: '73 queen Street'
+name: 'Fresho',
+address: '73 queen Street',
 cuisine: 'Vegetarian'
 )
 
 Restaurant.create(
-name: 'Happy Sushi'
-address: '90 John Street'
+name: 'Happy Sushi',
+address: '90 John Street',
 cuisine: 'Sushi'
 )
 
 Restaurant.create(
-name: 'Gringo Mandingo'
-address: '69 Dundas Street'
+name: 'Gringo Mandingo',
+address: '69 Dundas Street',
 cuisine: 'Mexican'
 )
 
 Restaurant.create(
-name: 'Luigi Pizza'
-address: '457 Collage Street'
+name: 'Luigi Pizza',
+address: '457 Collage Street',
 cuisine: 'Italian'
 )
 
 Restaurant.create(
-name: 'McDonnells'
-address: '333 Yonge Street'
+name: 'McDonnells',
+address: '333 Yonge Street',
 cuisine: 'Junk Food'
 )
 
 Restaurant.create(
-name: 'KFT (Kentucky fried Turkey)'
-address: '12 Front Street'
+name: 'KFT (Kentucky fried Turkey)',
+address: '12 Front Street',
 cuisine: 'Junk Food'
 )
 
 Restaurant.create(
-name: 'Pizza Pizza'
-address: '878 Sherbourne Street'
+name: 'Pizza Pizza',
+address: '878 Sherbourne Street',
 cuisine: 'Pizza'
 )

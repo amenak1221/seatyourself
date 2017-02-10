@@ -1,4 +1,4 @@
-<div class="">
+<div class="form">
   <%= form_for (@reserve) do |f|%>
 
   <!-- Number of people -->
@@ -13,12 +13,11 @@
     <%= f.date_select :date %>
   </div>
 
-  <!-- List of restaurants -->
-  <!-- <div class="field"> -->
-  <%# f.label  %>
-  <!-- Restaurant location -->
-  <%# @restaurants.address %>
-  <!-- </div> -->
+  <!-- drop down menu for restaurant -->
+  <div class="field">
+    <%= f.label :restaurants %>
+    <%= f.collection_select(:restaurant_id, Restaurant.all, :id, :name) %>
+  </div>
 
   <div class="actions">
     <%= f.submit %>
