@@ -6,10 +6,7 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/amrs-seatyourself
 Restaurant.create(
 name: 'Food Bytes',
 address: '220 King Street West',
