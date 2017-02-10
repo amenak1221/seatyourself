@@ -17,19 +17,17 @@ ActiveRecord::Schema.define(version: 20170209181655) do
     t.integer  "user_id"
     t.string   "date"
     t.integer  "people"
-    t.integer  "capacity"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
   end
 
   create_table "restaurants", force: :cascade do |t|
-    t.integer  "restaurant_id"
     t.string   "name"
     t.string   "address"
     t.string   "cuisine"
     t.string   "hours"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
