@@ -1,10 +1,12 @@
-class UserController < ApplicationController
+class UsersController < ApplicationController
 
   def index
+    raise "in index"
     @user = User.all
   end
 
   def new
+    # raise "hello"
     @user = User.new
   end
 
