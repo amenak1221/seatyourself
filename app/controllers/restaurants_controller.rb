@@ -11,13 +11,12 @@ end
 def create
   @restaurants = Restaurant.new(restaurant_params)
     if restaurant.save
-      redirect_to restaurants_url
+      redirect_to restaurants_url/show
     else render :new
     end
 end
 
 def show
-  @restaurants = Restaurant.find(params[:id])
 end
 
 
