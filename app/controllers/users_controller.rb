@@ -13,7 +13,7 @@ class UsersController < ApplicationController
   def create
     @user = User.new
     if @user.save
-      redirect_to reservation_url
+      redirect_to reservations_url
     end
   end
 
